@@ -37,6 +37,48 @@ main {
     position: relative;
 }
 
+.seletorcor {
+    display: flex;
+    justify-content: space-between;
+    width: 80%;
+    height: 10%;
+    z-index: 1;
+    position: absolute;
+    left: 20%;
+    top: 100%;
+}
+
+.seletorcor button {
+    color: white;
+    border: 2px solid white;
+    border-radius: 95%;
+    padding: 5px;
+    font-size: 31px;
+    height: 50px;
+    width: 50px;
+    box-shadow: 0 2px 4px darkslategray;
+    cursor: pointer;
+    transition: all 0.2s ease;
+}
+
+.seletorcor button:active {
+    box-shadow: 0 0 5px darkslategray;
+    transform: translateY(2px);
+}
+
+.roboazul {
+    background-color: rgb(43, 43, 255);
+
+}
+.robopreto {
+    background-color: black;
+}
+.robobranco {
+    background-color: white;
+    border: 20px solid black;
+}
+
+
 .robo {
     height: 110%;
     z-index: 1;
