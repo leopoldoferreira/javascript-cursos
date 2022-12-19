@@ -52,3 +52,22 @@ h3 {
     padding: 20px 10px 10px 20px;
     margin: 20px 0;
 }
+
+.btn-jogar {
+    padding: 8px 15px;
+    border: 0;
+    font-size: 2em;
+    font-family: var(--font-family);
+    background-color: var(--primary-color);
+    border-radius: 5px;
+    margin-top: 20px;
+}
+
+.btn-jogar:hover {
+    background-color: white;
+}
+
+.btn-jogar:active {
+    background-color: var(--bg-color);
+    color: white;
+}
