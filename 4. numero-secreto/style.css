@@ -71,3 +71,12 @@ h3 {
     background-color: var(--bg-color);
     color: white;
 }
+
+.confetti{
+    max-width: 99vw;
+    display: block;
+    position: absolute;
+    border: 1px solid #ddd;
+    user-select: none;
+    z-index: -2;
+}
