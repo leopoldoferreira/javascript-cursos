@@ -1,15 +1,19 @@
-const elementoParaInserirLivros = document.getElementById('livros')
-const elementoComValorTotalDeLivroDisponiveis = document.getElementById('valor_total_livros_disponiveis')
+const elementoParaInserirLivros = document.getElementById("livros");
+const elementoComValorTotalDeLivroDisponiveis = document.getElementById(
+  "valor_total_livros_disponiveis"
+);
 
 function exibirOsLivrosNaTela(listaDeLivros) {
-    elementoComValorTotalDeLivroDisponiveis.innerHTML = ''
-    elementoParaInserirLivros.innerHTML = ''
-    listaDeLivros.forEach( livro => {
-        //let disponibilidade = verificarDisponibilidadeDoLivro(livro)
-        let disponibilidade = livro.quantidade > 0 ? 'livro_imagens' : 'livro_imagens indisponivel'
-        elementoParaInserirLivros.innerHTML += 
-        `<div class="livro">
-        <img class="${disponibilidade}" src="${livro.imagem}" alt="${livro.alt}" />
+  elementoComValorTotalDeLivroDisponiveis.innerHTML = "";
+  elementoParaInserirLivros.innerHTML = "";
+  listaDeLivros.forEach((livro) => {
+    //let disponibilidade = verificarDisponibilidadeDoLivro(livro)
+    let disponibilidade =
+      livro.quantidade > 0 ? "livro_imagens" : "livro_imagens indisponivel";
+    elementoParaInserirLivros.innerHTML += `<div class="livro">
+        <img class="${disponibilidade}" src="${livro.imagem}" alt="${
+      livro.alt 
+    }" />
         <h2 class="livro__titulo">
           ${livro.titulo}
         </h2>
@@ -18,8 +22,8 @@ function exibirOsLivrosNaTela(listaDeLivros) {
         <div class="tags">
           <span clasfors="tag">${livro.categoria}</span>
         </div>
-      </div>`
-    })
+      </div>`;
+  });
 }
 
 // function verificarDisponibilidadeDoLivro(livro) {
