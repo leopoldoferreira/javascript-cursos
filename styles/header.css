@@ -3,6 +3,7 @@ header {
     justify-content: space-between;
     padding: 0.5em;
 }
+
 .header-bg {
     display: block;
     position: absolute;
@@ -10,11 +11,12 @@ header {
     top: 0px;
     left: 0px;
     opacity: 0.9;
+    transform: scale(1.4);
+    content: url(../img/header.png);
 }
 
 .header-logo {
-    color: var(--white);
-    text-shadow: -1px 0 rgba(0,0,0,0.5), 0 1px rgba(0,0,0,0.5), 1px 0 rgba(0,0,0,0.5), 0 1px rgba(0,0,0,0.5);
+    text-shadow: -1px 0 rgba(0,0,0,0.8), 0 1px rgba(0,0,0,0.8), 1px 0 rgba(0,0,0,0.8), 0 1px rgba(0,0,0,0.8);
 }
 
 .header-logo_brackets {
@@ -31,7 +33,7 @@ header {
 
 .header-list__item {
     font-family: var(--secondary-font);
-    text-shadow: -1px 0 rgba(0,0,0,0.5), 0 1px rgba(0,0,0,0.5), 1px 0 rgba(0,0,0,0.5), 0 1px rgba(0,0,0,0.5);
+    text-shadow: -1px 0 rgba(0,0,0,0.8), 0 1px rgba(0,0,0,0.8), 1px 0 rgba(0,0,0,0.8), 0 1px rgba(0,0,0,0.8);
     padding-left: 0.5em;
 }
 

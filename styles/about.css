@@ -1,0 +1,12 @@
+.about{
+    margin-top: 100vw;
+
+}
+
+.about__title {
+    text-align: center;
+}
+
+.whoami {
+    display: flex;
+}

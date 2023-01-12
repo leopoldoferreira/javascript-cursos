@@ -1,4 +1,6 @@
 @import url('./header.css');
+@import url('./about.css');
+@import url('./portfolio.css');
 @import url('./footer.css');
 
 :root {
@@ -15,6 +17,7 @@
 body {
     font-family: var(--main-font);
     background-color: var(--dark-blue);
+    color: var(--white);
     font-size: 1em;
 } 
 
@@ -23,4 +26,3 @@ img {
     object-fit: cover;
     object-position: bottom;
 }
-
