@@ -4,6 +4,15 @@ header {
     padding: 0.5em;
 }
 
+.header-video {
+    display: block;
+    position: absolute;
+    z-index: -1;
+    top: 0px;
+    left: 0px;
+    opacity: 0.9;
+}
+
 .header-bg {
     display: block;
     position: absolute;

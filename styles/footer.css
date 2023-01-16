@@ -1,4 +1,10 @@
-footer {
+
+.footer-img {
+    display: block;
     position: absolute bottom;
-    background: url("../img/footer.png");
+    z-index: -1;
+    top: 0px;
+    left: 0px;
+    opacity: 0.9;
+    transform: scale(1.4);
 }

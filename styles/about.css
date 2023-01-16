@@ -1,12 +1,31 @@
 .about{
-    margin-top: 100vw;
+    margin-top: 70vw;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+}
 
+.about h2, p, ul {
+    margin: 0.25em;
 }
 
 .about__title {
+    font-size: 2em;
     text-align: center;
+    grid-column: span 2;
 }
 
-.whoami {
-    display: flex;
+.whoami__title, .skills__title{
+    font-size: 1.8em;
+}
+
+.whoami__paragraph{
+    font-size: 0.8em;
+}
+
+.skills-list {
+    column-count: 3;
+}
+
+.icons {
+    width: 40px;
 }
